@@ -22,16 +22,22 @@ body
     width: 100%;
     height: fit-content;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.calculator_header h1
+#result_element
 {
-    text-align: end;
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 4px;
-    word-wrap: break-word;
-    font-size: 50px;
+    font-size: 48px;
+}
+
+#operation_element
+{
+    margin-left: 8px;
 }
 
 .calculator_body
