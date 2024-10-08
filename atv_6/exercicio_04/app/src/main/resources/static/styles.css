@@ -1,0 +1,111 @@
+html, body
+{
+    background-color: #1e1e1e;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_holder
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+    width: fit-content;
+    height: fit-content;
+
+    color: white;
+    margin-top: 25%;
+    padding: 2.5%;
+    border: solid 3px #353535;
+    border-radius: 16px;
+}
+
+.div_inputs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.div_inputs div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_inputs div label
+{
+    margin-right: 16px;
+}
+
+.div_inputs div input
+{
+    align-self: flex-end;
+}
+
+.div_btns
+{
+    margin-bottom: 16px;
+}
+
+h1
+{
+    padding: 16px;
+}
+
+button
+{
+    box-shadow: none;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #DDDDDD;
+    border-radius: 8px;
+}
+
+button:hover
+{
+    background-color: #FFFFFF;
+}
+
+button:active
+{
+    background-color: #BBBBBB;
+}
+
+label
+{
+    font: bold;
+    font-size: 20px;
+}
+
+input
+{
+    background-color: #303030;
+    border: solid 2px #444444;
+    padding: 4px;
+    color: white;
+    border-radius: 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+h6
+{
+    margin-bottom: 16px;
+}

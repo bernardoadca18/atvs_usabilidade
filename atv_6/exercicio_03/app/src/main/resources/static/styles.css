@@ -1,7 +1,101 @@
+body
+{
+    background-color: #ff3535;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .container
 {
-    width: 800px;
-    height: 450px;
-    background-color: #444444;
-    border-radius: 8px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #202020;
+    color: white;
+    padding: 32px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    gap: 16px;
+    height: 100vh;
+}
+.sidebar h2
+{
+    align-self: center;
+}
+
+.sidebar input
+{
+    background-color: #333333;
+    color: #888888;
+    border-color: #444444;
+}
+
+.sidebar *
+{
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 12px;
+}
+
+.page_content
+{
+    flex-grow: 1;
+    background-color: #1c1c1c;
+    position: fixed;
+    left: 25%;
+    width: 75%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+
+    padding: 80px;
+}
+
+.page_content_title
+{
+    width: 100vw;
+    height: fit-content;
+    background-color: #141414;
+    padding: 24px;
+}
+
+.page_content_title_el
+{
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.vehicle_card
+{
+    width: 600px;
+    height: 300px;
+    background-color: #252525;
+    border-radius: 16px;
+    border: 3px solid #444444;
+    color: white;
+    padding: 16px;
+}
+
+.vehicle_card p
+{
+    font-size: 36px;
 }
