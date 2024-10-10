@@ -19,12 +19,12 @@ public class Employee
         return this.id;
     }
 
-    public String get_product_name()
+    public String get_name()
     {
         return this.name;
     }
 
-    public double get_price()
+    public double get_hour_wage()
     {
         return this.hour_wage;
     }

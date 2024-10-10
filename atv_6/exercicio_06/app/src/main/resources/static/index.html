@@ -9,9 +9,20 @@
 </head>
 <body>
     <div class="inputs_div">
-        <div>
-            <label for="product_id">Código do Produto: </label>
-            <input id="product_id" type="number" placeholder="0">
+        <h2>Gerenciador de Funcionários</h2>
+        <div class="inputs_container">
+            <div>
+                <label for="employee_id_input">Código do Funcionário: </label>
+                <input id="employee_id_input" type="number" placeholder="0">
+            </div>
+            <div>
+                <label for="worked_hours_input">Horas Trabalhadas: </label>
+                <input id="worked_hours_input" type="number" placeholder="0">
+            </div>
+            <div>
+                <label for="total_val">Valor a Receber: </label>
+                <div id="total_val" ><p id="total_val_paragraph" type="number" placeholder="0"></p></div>
+            </div>
         </div>
         <div>
             <button class="search_button" onclick="buscar()">BUSCAR</button>
@@ -25,7 +36,7 @@
                 <tr>
                     <th>Código</th>
                     <th>Nome</th>
-                    <th>Valor de salário a cada hora.</th>
+                    <th>Salário /hora</th>
                 </tr>
             </thead>
 
