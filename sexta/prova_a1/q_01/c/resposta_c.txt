@@ -1,0 +1,7 @@
+As principais vantagens de usar CSS inline são a simplicidade e praticidade, especialmente para ajustes rápidos em uma página ou em elementos específicos. É uma boa escolha quando você precisa aplicar um estilo único em um único lugar, sem precisar mexer em classes ou arquivos externos. Ideal para quando o foco é algo pontual e imediato.
+
+Por outro lado, a principal desvantagem do CSS inline é a falta de organização e a dificuldade de manutenção. Se o site crescer e várias partes começarem a depender de estilos inline, a chance de gerar confusão aumenta, já que os estilos ficam espalhados diretamente no código HTML. Além disso, dificulta a reutilização e torna o site menos escalável, já que não há um local centralizado para editar o design.
+
+Usar um arquivo CSS externo tem como vantagem maior organização e facilidade na manutenção. Ao centralizar todos os estilos em um único arquivo, fica mais simples aplicar mudanças globais ao site todo. Também favorece a reutilização de estilos, além de melhorar o desempenho, já que o arquivo pode ser armazenado em cache pelos navegadores.
+
+A desvantagem é que, para mudanças muito pontuais, pode parecer exagero criar classes ou mexer em um arquivo externo só para um único elemento, o que pode atrasar pequenas edições.

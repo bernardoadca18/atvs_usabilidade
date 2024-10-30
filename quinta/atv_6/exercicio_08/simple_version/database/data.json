@@ -1,0 +1,124 @@
+{
+  "pessoas": [
+    {
+      "id": 0,
+      "tipo": "PessoaFisica",
+      "nome": "João Silva",
+      "cpf": "123.456.789-00"
+    },
+    {
+      "id": 1,
+      "tipo": "PessoaFisica",
+      "nome": "Maria Oliveira",
+      "cpf": "234.567.890-11"
+    },
+    {
+      "id": 2,
+      "tipo": "PessoaFisica",
+      "nome": "Carlos Pereira",
+      "cpf": "345.678.901-22"
+    },
+    {
+      "id": 3,
+      "tipo": "PessoaFisica",
+      "nome": "Ana Costa",
+      "cpf": "456.789.012-33"
+    },
+    {
+      "id": 4,
+      "tipo": "PessoaFisica",
+      "nome": "Fernando Souza",
+      "cpf": "567.890.123-44"
+    },
+    {
+      "id": 5,
+      "tipo": "PessoaFisica",
+      "nome": "Beatriz Rocha",
+      "cpf": "678.901.234-55"
+    },
+    {
+      "id": 6,
+      "tipo": "PessoaFisica",
+      "nome": "Paulo Mendes",
+      "cpf": "789.012.345-66"
+    },
+    {
+      "id": 7,
+      "tipo": "PessoaFisica",
+      "nome": "Juliana Carvalho",
+      "cpf": "890.123.456-77"
+    },
+    {
+      "id": 8,
+      "tipo": "PessoaFisica",
+      "nome": "Ricardo Silva",
+      "cpf": "901.234.567-88"
+    },
+    {
+      "id": 9,
+      "tipo": "PessoaFisica",
+      "nome": "Luciana Fernandes",
+      "cpf": "012.345.678-99"
+    },
+    {
+      "id": 10,
+      "tipo": "PessoaJuridica",
+      "nome": "Tech Solutions Ltda",
+      "cnpj": "12.345.678/0001-00"
+    },
+    {
+      "id": 11,
+      "tipo": "PessoaJuridica",
+      "nome": "Construtora Brasil",
+      "cnpj": "23.456.789/0001-11"
+    },
+    {
+      "id": 12,
+      "tipo": "PessoaJuridica",
+      "nome": "Agropecuária Rio Verde",
+      "cnpj": "34.567.890/0001-22"
+    },
+    {
+      "id": 13,
+      "tipo": "PessoaJuridica",
+      "nome": "Comércio Silva & Filhos",
+      "cnpj": "45.678.901/0001-33"
+    },
+    {
+      "id": 14,
+      "tipo": "PessoaJuridica",
+      "nome": "Lima e Souza Advocacia",
+      "cnpj": "56.789.012/0001-44"
+    },
+    {
+      "id": 15,
+      "tipo": "PessoaJuridica",
+      "nome": "Restaurante Sabor Caseiro",
+      "cnpj": "67.890.123/0001-55"
+    },
+    {
+      "id": 16,
+      "tipo": "PessoaJuridica",
+      "nome": "Transportadora Via Rápida",
+      "cnpj": "78.901.234/0001-66"
+    },
+    {
+      "id": 17,
+      "tipo": "PessoaJuridica",
+      "nome": "Editora Conhecimento",
+      "cnpj": "89.012.345/0001-77"
+    },
+    {
+      "id": 18,
+      "tipo": "PessoaJuridica",
+      "nome": "Autopeças Fernandes",
+      "cnpj": "90.123.456/0001-88"
+    },
+    {
+      "id": 19,
+      "tipo": "PessoaJuridica",
+      "nome": "Eventos e Festas Ltda",
+      "cnpj": "01.234.567/0001-99"
+    }
+  ]
+}
